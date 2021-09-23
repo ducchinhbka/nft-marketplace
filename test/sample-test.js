@@ -18,7 +18,7 @@ describe("Greeter", function () {
   });
 });
 
-decribe("NFTMarket", function() {
+describe("NFTMarket", function() {
   it("Should create and execute market sales", async function() {
     /* deploy the marketplace */
     const Market = await ethers.getContractFactory("NFTMarket");
